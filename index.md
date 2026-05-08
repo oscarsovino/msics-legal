@@ -4,12 +4,17 @@ title: MSICS
 
 # MSICS
 
-Software para gestión integral de academias, gimnasios e instituciones educativas.
+Software para Latinoamérica.
 
-**Producto:** [miAcademia](https://play.google.com/store/apps/details?id=com.msics.miacademia) (Android & iOS)
-**Contacto:** [oscar.sovino@gmail.com](mailto:oscar.sovino@gmail.com)
+## Productos
 
-## Legal
+- **[miAcademia](https://miacademia.msics.cl/)** — gestión integral de academias, gimnasios e instituciones educativas. Asistencia con QR, reservas de sesiones, facturación, multi-rol.
+- **[PollyFlip](https://pollyflip.msics.cl/)** — flashcards inteligentes con repetición espaciada para K-12 LATAM. Cuentas para hijos con visibilidad parental, círculos de curso.
 
-- [Privacy Policy](./privacy)
-- [Terms of Service](./terms)
+## Contacto
+
+[contacto@msics.cl](mailto:contacto@msics.cl)
+
+---
+
+_Este sitio funciona como hub de productos MSICS. Las páginas legales de cada producto viven en sus dominios propios: las legales de miAcademia están en [miacademia.msics.cl/privacy](https://miacademia.msics.cl/privacy) y las de PollyFlip en [pollyflip.msics.cl/privacy](https://pollyflip.msics.cl/privacy)._
