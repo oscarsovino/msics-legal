@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#27272a">
+  <title>{{ page.title | default: site.title }}</title>
+  {% if page.description or site.description %}
+    <meta name="description" content="{{ page.description | default: site.description }}">
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #fafafa;
+      color: #18181b;
+      line-height: 1.6;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 4rem 1.5rem; }
+    header { margin-bottom: 2.5rem; }
+    .eyebrow {
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #71717a;
+      margin: 0 0 0.5rem;
+    }
+    h1 { font-size: 2.25rem; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 0.5rem; color: #09090b; }
+    .lede { color: #52525b; font-size: 1.125rem; margin: 0; }
+    h2 { font-size: 1.5rem; margin: 2rem 0 1rem; color: #09090b; }
+    h3 { font-size: 1.125rem; margin: 1.5rem 0 0.5rem; color: #09090b; }
+    p { margin: 0 0 1rem; color: #3f3f46; }
+    a { color: #18181b; text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { color: #2563eb; }
+    ul, ol { color: #3f3f46; padding-left: 1.5rem; }
+    li { margin-bottom: 0.25rem; }
+    hr { border: none; border-top: 1px solid #e4e4e7; margin: 2.5rem 0; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid #e4e4e7; vertical-align: top; }
+    th { color: #71717a; font-weight: 500; }
+    code { background: #f4f4f5; padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.9em; }
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e4e4e7;
+      font-size: 0.85rem;
+      color: #71717a;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">{{ site.title | default: "MSICS" }}</p>
+      {% if site.description %}
+        <p class="lede">{{ site.description }}</p>
+      {% endif %}
+    </header>
+
+    {{ content }}
+
+    <footer>
+      © 2026 MSICS. <a href="mailto:contacto@msics.cl">contacto@msics.cl</a>
+    </footer>
+  </main>
+</body>
+</html>
