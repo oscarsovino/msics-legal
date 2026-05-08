@@ -1,3 +1,9 @@
 title: MSICS
-description: Legal documents for MSICS / miAcademia
+description: Software para Latinoamérica — miAcademia, PollyFlip
 theme: jekyll-theme-minimal
+
+# Permite usar `redirect_to:` en el frontmatter de cada .md para enviar
+# 301 hacia las URLs nuevas. Plugin oficial autorizado por GitHub Pages.
+# Doc: https://github.com/jekyll/jekyll-redirect-from
+plugins:
+  - jekyll-redirect-from
